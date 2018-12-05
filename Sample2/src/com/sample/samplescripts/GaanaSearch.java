@@ -15,6 +15,7 @@ public class GaanaSearch
 		
 		driver.get("https://gaana.com/");
 		
+		//click on search icon
 		driver.findElement(By.id("searchTop")).click();
 		Thread.sleep(1000);
 		
