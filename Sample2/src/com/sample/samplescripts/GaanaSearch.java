@@ -8,8 +8,9 @@ public class GaanaSearch
 
 	public static void main(String[] args) throws InterruptedException 
 	{
-		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver64.exe");
 		ChromeDriver driver = new ChromeDriver();
+		//Open browser
 		driver.manage().window().maximize();
 		
 		//open browser
