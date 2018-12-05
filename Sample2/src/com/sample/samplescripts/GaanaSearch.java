@@ -18,6 +18,7 @@ public class GaanaSearch
 		driver.findElement(By.id("searchTop")).click();
 		Thread.sleep(1000);
 		
+		//search for eminem
 		driver.findElement(By.id("sb")).sendKeys("eminem");
 		driver.findElement(By.className("search_btn")).click();
 		
