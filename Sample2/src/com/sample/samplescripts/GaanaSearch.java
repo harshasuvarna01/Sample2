@@ -12,7 +12,7 @@ public class GaanaSearch
 		ChromeDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		
-		
+		//open browser
 		driver.get("https://gaana.com/");
 		
 		//click on search icon
