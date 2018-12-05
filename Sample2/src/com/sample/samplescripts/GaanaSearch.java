@@ -23,6 +23,10 @@ public class GaanaSearch
 		//search for eminem
 		driver.findElement(By.id("sb")).sendKeys("eminem");
 		driver.findElement(By.className("search_btn")).click();
+		Thread.sleep(1000);
+		
+		//click on album
+		driver.findElement(By.className("imghover")).click();
 		
 	}
 
