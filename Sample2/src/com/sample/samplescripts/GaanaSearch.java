@@ -29,9 +29,9 @@ public class GaanaSearch
 		driver.findElement(By.className("imghover")).click();
 		Thread.sleep(1000);
 		
-		//click on play all
+		//click on play all songs of eminem
 		driver.findElement(By.id("p-list-play_all")).click();
-		
+				
 	}
 
 }
