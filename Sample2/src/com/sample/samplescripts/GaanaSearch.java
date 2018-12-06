@@ -8,7 +8,7 @@ public class GaanaSearch
 
 	public static void main(String[] args) throws InterruptedException 
 	{
-		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver64.exe");
+		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		//Open browser
 		driver.manage().window().maximize();
@@ -27,6 +27,10 @@ public class GaanaSearch
 		
 		//click on album
 		driver.findElement(By.className("imghover")).click();
+		Thread.sleep(1000);
+		
+		//click on play all
+		driver.findElement(By.id("p-list-play_all")).click();
 		
 	}
 
