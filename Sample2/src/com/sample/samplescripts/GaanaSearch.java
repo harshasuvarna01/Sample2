@@ -31,6 +31,8 @@ public class GaanaSearch
 		
 		//click on play all songs of eminem
 		driver.findElement(By.id("p-list-play_all")).click();
+		
+		//do nothing
 				
 	}
 
